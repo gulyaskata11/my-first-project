@@ -15,7 +15,7 @@ let greeting = newStudy('Kata')
 console.log(greeting)
 
 function modifyGreeting() {
-    greeting = newStudy('Béla')
+    greeting = newStudy('Bélaaaaa')
 }
 
 let x = modifyGreeting()
