@@ -4,6 +4,8 @@
  * This excercise is about functions and Date in JavaScript.
  * Please find the doc which you have to study before jump in:
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+ * and the constructor, which can be used for creating a new Date object
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
  * yeah.. you should interpret a lot if technical JS docs in the future and this is the very first time I ask you for do it alone and YES, I am aware that it is not easy for the first time... But it is a required skill! Just take an attempt and we will see.. No pressure :)
  * I will help you, take it easy :)
  * Let's see your task
