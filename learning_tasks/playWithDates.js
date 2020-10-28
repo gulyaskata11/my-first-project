@@ -30,5 +30,3 @@ const calculateMyAge = (birthYear) => {
 module.exports = {
     calculateMyAge
 }
-
-// hey!! try out your function in the other file, testPlayWithDates.js
