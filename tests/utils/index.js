@@ -1,7 +1,7 @@
 const { errorLog } = require('./errorLog')
-const { passedLog }  = require('./passedLog')
+const { passedLog } = require('./passedLog')
 
-module.exports ={
-    errorLog,
-    passedLog
+module.exports = {
+  errorLog,
+  passedLog
 }

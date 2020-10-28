@@ -5,7 +5,6 @@ const { calculateMyAge } = require('../learning_tasks/playWithDates')
 // here we will test your function
 
 const testYourMagnificantDateFunction = () => {
-
   const testCases = [
     {
       input: 2000,
@@ -21,18 +20,16 @@ const testYourMagnificantDateFunction = () => {
     }
   ]
 
-  testCases.forEach(testCase => {
+  testCases.forEach((testCase) => {
     const result = calculateMyAge(testCase.input)
     if (result === testCase.shouldBe) {
       passedLog(testCase.shouldBe)
     } else {
-      errorLog({result, shouldBe: testCase.shouldBe})
+      errorLog({ result, shouldBe: testCase.shouldBe })
     }
   })
-
 }
 
 console.log('*** Testing your calculateMyAge function ***\n')
 testYourMagnificantDateFunction()
 console.log('\n*** Testing your calculateMyAge function ends here *** \n')
-
