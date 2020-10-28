@@ -10,7 +10,7 @@
  */
 
 // this function has to calculate your age based on the birth date(year).. so easy!
-module.exports = calculateMyAge = (birthYear) => {
+const calculateMyAge = (birthYear) => {
   // WTF??? yeah it is the ES6 syntax of function definition called arrow function (why arrow?? heeeeey.. I guess..mmmm... Just try a shoot XD)
   // same as:
   // function calculateMyAge(birthYear)
@@ -26,5 +26,9 @@ module.exports = calculateMyAge = (birthYear) => {
 
   return myAge
 };
+
+module.exports = {
+    calculateMyAge
+}
 
 // hey!! try out your function in the other file, testPlayWithDates.js
