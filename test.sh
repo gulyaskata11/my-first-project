@@ -1,0 +1,1 @@
+ls tests | sed s'/ /\n/' | while read test; do node "./tests/${test}"; done
