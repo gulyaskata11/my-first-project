@@ -1,7 +1,7 @@
 /**
  * Another cool learning stuff and a related exercise! Let's see it!
  * 
- * Your function has to be able to check wether its inputs amount is greater than 10 or not
+ * Your function has to be able to check wether its inputs sum is greater than 10 or not
  * Based on it it should return false (if not greater) or true (if greater)
  * 
  * doc about if..else:
