@@ -1,5 +1,5 @@
 const { errorLog, passedLog } = require('./utils')
-const { checkIfGreatherThanTen } = require('../learning_tasks/firstStatement')
+const { checkIfGreaterThanTen } = require('../learning_tasks/firstStatement')
 
 const testCases = [
   {
@@ -27,7 +27,7 @@ const testCases = [
 const testYourFunction = () => {
   testCases.forEach((testCase) => {
     const { num1, num2, shouldBe } = testCase
-    const result = checkIfGreatherThanTen(num1, num2)
+    const result = checkIfGreaterThanTen(num1, num2)
     if (result === shouldBe) {
       passedLog(shouldBe)
     } else {
@@ -36,6 +36,6 @@ const testYourFunction = () => {
   })
 }
 
-console.log('*** Testing your checkIfGreatherThanTen function ***\n')
+console.log('*** Testing your checkIfGreaterThanTen function ***\n')
 testYourFunction()
-console.log('\n*** Testing your checkIfGreatherThanTen function ends here *** \n')
+console.log('\n*** Testing your checkIfGreaterThanTen function ends here *** \n')
