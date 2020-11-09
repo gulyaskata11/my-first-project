@@ -12,7 +12,18 @@
  // here comes your function:
  const checkIfGreaterThanTen = (num1, num2) => {
      // here comes your code
-     return 'placeholder text'
+     /* if (num1 + num2 > 10) {
+         return true
+     }
+     else {
+         return false
+     } */
+     
+    /* const newResult = num1 + num2 > 10
+    return newResult */
+
+    // return num1 + num2 > 10
+
  }
 
  module.exports = {

@@ -22,9 +22,10 @@ const calculateMyAge = (birthYear) => {
   let myAge
 
   // You will store the current year in this variable (see the doc above.. how we can get the current year using Date constructor.. check the methods on the left side! Their names are very self-explanatory)
-  let currentYear
-
-  myAge = 'placeholder text, please replace it with your code!'
+  let currentYear = new Date()
+  currentYear = currentYear.getFullYear()
+  
+  myAge = currentYear - birthYear
 
   return myAge
 }
