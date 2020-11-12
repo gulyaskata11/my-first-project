@@ -34,6 +34,7 @@ const playWithObjects = (name, age) => {
     }
 
     // which two parameters to add to the function to return the proper person object with the proper name from the parent function parameter?
+    // please note, that the person const is not used yet, maybe you should consider to use it at some point... :P
     const result = addMyName(/* two parameter values here */ )
 
     // if the person's name is not string you should return with 'invalid type of name'
