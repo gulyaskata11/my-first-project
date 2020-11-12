@@ -18,7 +18,7 @@
  */
 
 const playWithObjects = (name, age) => {
-    // your first object which ever worked
+    // your first object which you ever worked with
     // what is my name should not be changed here!
     const person = {
         name: 'what is my name??',
