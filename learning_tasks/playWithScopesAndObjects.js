@@ -28,7 +28,8 @@ const playWithObjects = (name, age) => {
     // here you have to create the function which will add the person name to the person and return it
     // is this person in parameter the same person??
     const addMyName = (name, person) => {
-        const localPerson = { ...person } // please do not delete this localPerson! You have to return THIS localPerson from this function
+        // please do not delete this localPerson! You have to return THIS localPerson from this function
+        const localPerson = { ...person } // what this {... } thing means? we will discuss it later, please just grasp it as we add some person's value to the localPerson
         
         return localPerson
     }
