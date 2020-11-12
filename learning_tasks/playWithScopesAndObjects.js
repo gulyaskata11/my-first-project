@@ -4,7 +4,7 @@
  * 
  * what you need:
  * -you can reach an object property like this: person.name (will get the name of the person)
- * -you can modify an object propert like this: person.name = 'Donald Trump' (will modify the person's name to Donald Trump)
+ * -you can modify an object property like this: person.name = 'Donald Trump' (will modify the person's name to Donald Trump)
  * -you should pay attention on the variable scopes
  * -you have to remember how we can escape from a function at a certain point
  * 
@@ -14,7 +14,7 @@
  * -extend the addMyName function based on the instructions about objects above
  * -add the proper parameter values to the addMyName function call (it is tricky!!)
  * -add the proper code to the if statement. It should escape from the main function with the text what is in the comment instruction there
- * -the return value should be an OBJECT with the proper name and age what are from the main function parameters!
+ * -the result value should be an OBJECT with the proper name and age what are from the main function parameters!
  */
 
 const playWithObjects = (name, age) => {
