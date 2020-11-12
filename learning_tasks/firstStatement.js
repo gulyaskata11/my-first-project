@@ -22,7 +22,7 @@
     /* const newResult = num1 + num2 > 10
     return newResult */
 
-    // return num1 + num2 > 10
+    return num1 + num2 > 10
 
  }
 
