@@ -24,6 +24,11 @@
 
     return num1 + num2 > 10
 
+    if (num1 + num2 > 10) {
+        return true
+    }
+    return false
+
  }
 
  module.exports = {
