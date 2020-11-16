@@ -27,21 +27,21 @@ const playWithObjects = (name, age) => {
 
     // here you have to create the function which will add the person name to the person and return it
     // is this person in parameter the same person??
-    const addMyName = (name, person) => {
+    const addMyName = (nameParameter, personParameter) => {
         // please do not delete this localPerson! You have to return THIS localPerson from this function
-        const localPerson = { ...person } // what this {... } thing means? we will discuss it later, please just grasp it as we add some person's value to the localPerson
-        
+        const localPerson = { ...personParameter } // what this {... } thing means? we will discuss it later, please just grasp it as we add some person's value to the localPerson
+        localPerson.name = nameParameter
         return localPerson
     }
 
     // which two parameters to add to the function to return the proper person object with the proper name from the parent function parameter?
     // please note, that the person const is not used yet, maybe you should consider to use it at some point... :P
-    const result = addMyName(/* two parameter values here */ )
+    const result = addMyName(name, person)
 
     // if the person's name is not string you should return with 'invalid type of name'
     if (typeof result.name !== 'string') {
         // how do you handle it?
-        
+        return 'invalid type of name'
     }
 
     return JSON.stringify(result) // You can check what is it but is is not the most important right here
