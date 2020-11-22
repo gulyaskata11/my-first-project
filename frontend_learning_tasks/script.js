@@ -13,3 +13,11 @@ myButton.addEventListener('click', () => {
     console.log(textInput.value)
     textOutput.value = textInput.value
 })
+
+const clearButton = document.getElementById('clearbutton')
+
+clearButton.addEventListener('click', () => {
+    clearButton.value = ''
+    textOutput.value = clearButton.value
+    alert('CONTENT DELETED')
+})
