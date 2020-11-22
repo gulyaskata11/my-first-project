@@ -17,7 +17,6 @@ myButton.addEventListener('click', () => {
 const clearButton = document.getElementById('clearbutton')
 
 clearButton.addEventListener('click', () => {
-    clearButton.value = ''
-    textOutput.value = clearButton.value
+    textOutput.value = ''
     alert('CONTENT DELETED')
 })
