@@ -1,0 +1,12 @@
+.main {
+    width: 80%;
+    background-color: greenyellow;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+input {
+    margin-bottom: 15px;
+    width: 60%;
+}
